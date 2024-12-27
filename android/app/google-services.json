@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "527062137540",
+    "project_id": "healtho-f1635",
+    "storage_bucket": "healtho-f1635.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527062137540:android:6ef7f43702ae2de126a791",
+        "android_client_info": {
+          "package_name": "com.example.healtho_gym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoc-mKgfnq8iJ_jopoeYFez5J7kmIQ7AU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
