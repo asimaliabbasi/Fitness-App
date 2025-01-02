@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:healtho_gym/pages/exercise_page.dart';
 import 'package:healtho_gym/pages/proofile_page.dart';
 import 'trainings_page.dart';
 
+=======
+import 'package:healtho_gym/pages/exercise_page.dart';
+import 'package:healtho_gym/pages/proofile_page.dart';
+import 'package:flutter/material.dart';
+import 'trainings_page.dart';
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -14,6 +21,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _currentIndex = 0;
 
+<<<<<<< HEAD
+=======
+  // List of titles for the AppBar
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
   final List<String> _titles = [
     'Home',
     'Trainings',
@@ -22,16 +33,24 @@ class _HomePageState extends State<HomePage> {
   ];
 
   final List<Widget> _pages = [
+<<<<<<< HEAD
     const HomeScreen(),
     const TrainingsPage(),
     const ExercisesPage(),
     const ProfilePage(),
+=======
+    const Center(child: Text('Home')), // Home page
+    const TrainingsPage(), // Trainings page
+    const ExercisesPage(), // Exercises page
+    const ProfilePage(), // Profile page
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+<<<<<<< HEAD
         automaticallyImplyLeading: false, // This removes the back arrow
         backgroundColor: Colors.black,
         title: Center(
@@ -44,14 +63,26 @@ class _HomePageState extends State<HomePage> {
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black,
+=======
+          title: Center(
+            child: Text(_titles[_currentIndex]),
+          )),
+      body: _pages[_currentIndex], // Display the current page
+      bottomNavigationBar: BottomNavigationBar(
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
         currentIndex: _currentIndex,
         onTap: (index) {
           setState(() {
             _currentIndex = index;
           });
         },
+<<<<<<< HEAD
         selectedItemColor: Colors.black,
         unselectedItemColor: Colors.grey,
+=======
+        selectedItemColor: Colors.purple, // Color for the selected item
+        unselectedItemColor: Colors.grey, // Color for unselected items
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(
@@ -65,6 +96,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+<<<<<<< HEAD
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -255,3 +287,5 @@ class ActivityChart extends StatelessWidget {
     );
   }
 }
+=======
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe

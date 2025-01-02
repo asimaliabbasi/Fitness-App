@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import 'dart:async';
 
+=======
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
 import 'package:flutter/material.dart';
 
 class TrainingsPage extends StatelessWidget {
@@ -7,6 +10,7 @@ class TrainingsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     final List<TrainingSection> trainingSections = [
       TrainingSection(
         title: 'Warm-Up',
@@ -214,3 +218,8 @@ class _TimerDialogState extends State<TimerDialog> {
     );
   }
 }
+=======
+    return const Center(child: Text('Start the training'));
+  }
+}
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe

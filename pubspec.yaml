@@ -19,7 +19,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
+<<<<<<< HEAD
   sdk: '>=3.2.3 <4.0.0'
+=======
+  sdk: '>=3.2.3'
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -48,8 +52,12 @@ dependencies:
   firebase_auth: ^5.3.4
   firebase_storage: ^12.3.7
   fluttertoast: ^8.2.10
+<<<<<<< HEAD
   fl_chart: ^0.70.0
   http: ^1.2.2
+=======
+
+>>>>>>> 5d6b9a59195bd7bc27d0b0976e0a0540ced58bfe
 
 dev_dependencies:
   flutter_test:
